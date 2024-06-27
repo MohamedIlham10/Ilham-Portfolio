@@ -95,6 +95,17 @@ body {
     color: rgb(255, 255, 255);
     
 }
+.linkedin{
+    text-decoration: none;
+}
+
+.behance{
+    text-decoration: none;
+}
+
+.dribble{
+    text-decoration: none;
+}
 
 .job {
     color: rgb(16, 16, 16);
