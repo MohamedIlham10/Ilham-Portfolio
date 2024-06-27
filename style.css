@@ -1,0 +1,375 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#024d5a, #091813);
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.ilham {
+    font-size: 50px;
+    color: rgb(241, 196, 15);
+    text-shadow: 2px 2px 4px rgba(83, 83, 83, 0.547);
+    font-weight:bold ;
+    text-align: center;
+}
+
+.Se{
+    text-align: center;
+}
+.banner {
+    justify-content: wrap;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(green.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px;
+    color: white;
+    animation: animate 15s ease;
+}
+
+.logos-slide img{
+    height: 50px;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    
+}
+
+.logos-slide img{
+    display: inline block;
+    white-space: nowrap;
+    animation: 5s slide infinite linear;
+}
+
+.wrapper{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+@keyframes animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50%{
+        border-radius: 30% 60% 700% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 60% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+.paragraph {
+    color: rgb(169, 170, 170);
+    font-weight: 20%;
+}
+
+.second {
+    color: rgb(169, 170, 170);
+    font-weight: 20%;
+
+}
+
+.copy {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.job {
+    color: rgb(16, 16, 16);
+}
+
+
+.content {
+    color: rgb(16, 16, 16);
+    text-align: center;
+
+}
+
+.column {
+    text-align: end;
+}
+
+
+.card {
+    transition: all 0.5s;
+    background: linear-gradient (135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+    backdrop-filter: (10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+
+
+}
+
+.card:hover {
+    transform: scale(1.2);
+
+}
+
+.html-1 {
+    background-color: rgb(18, 18, 84);
+
+}
+
+.html-2 {
+    color: white;
+}
+
+.html-3 {
+    color: rgb(181, 181, 181);
+
+}
+
+.css-1 {
+    background-color: rgb(18, 18, 84);
+}
+
+.css-2 {
+    color: white;
+}
+
+.css-3 {
+    color: rgb(181, 181, 181);
+}
+
+.js-1 {
+    background-color: rgb(18, 18, 84);
+}
+
+.js-2 {
+    color: white;
+}
+
+.js-3 {
+    color: rgb(181, 181, 181);
+}
+
+.f-1 {
+    background-color: rgb(18, 18, 84);
+}
+
+.f-2 {
+    color: white;
+}
+
+.f-3 {
+    color: rgb(181, 181, 181);
+}
+
+.navbar {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .5);
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link {
+    border-radius: 1px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    margin: o 10px;
+    justify-content: center;
+}
+
+.edu-hnd {
+    background-color: rgb(69,91,85);
+}
+
+.edu-bsc {
+    background-color: rgb(69,91,85);
+
+}
+
+.title-2 {
+    color: white;
+}
+
+.title-1 {
+    color: white;
+}
+
+.caption-1 {
+    color: rgb(169, 170, 170);
+}
+
+.caption-2 {
+    color: rgb(169, 170, 170);
+}
+
+@media screen and (max-width: 800px){
+    .banner{
+        padding: 20px;
+        width: 100%;
+    }
+    .banner h4 {
+        display: none;
+    }
+
+
+h5{
+    font-size: 18px;
+    color: white;
+}
+}
+
+.fontcss{
+    font-size: 18px;
+    color: white;
+
+}
+
+.fontjs{
+    font-size: 18px;
+    color: white;
+}
+
+.fontfigma{
+    font-size: 18px;
+    color: white;
+}
+
+.fontboot{
+    font-size: 18px;
+    color: white;
+}
+
+.fontms{
+    font-size: 18px;
+    color: white;
+}
+.fonthtml{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+ .label{
+
+    font-size: 18px;
+}
+
+
+.progress {
+    background-color: white;
+    height: 20px;
+    background: linear-gradient (135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+    backdrop-filter: (10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.progress-bar {
+    background-color: rgb(69,91,85);
+}
+
+.nav-link{
+    color: #024d5a;
+}
+
+.button1{
+    color: white;
+    background-color: #024d5a;
+}
+.button2{
+    color: white;
+    background-color: #024d5a;
+}
+
+.sub-btn{
+    color: #024d5a;
+    background-color: white;
+}
+
+.nav-logo{
+    color: #024d5a;
+}
+
+.nav-bar{
+    background-attachment: rgba(69,91,85);
+}
+
+.second,.paragraph,.progress,.fronthtml,.frontcss,.frontjs,.frontfigma,.frontboot,.frontms,.pic{
+    
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+
+}
+
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card{
+    background-color: rgb(69,91,85);
+}
+
+.card-text{
+    color: rgb(169, 170, 170);
+}
+
+.btn-primary{
+    background-color: #024d5a;
+    color: white;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: black;
+}
+
+
+@keyframes CSSscrollReveal{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
